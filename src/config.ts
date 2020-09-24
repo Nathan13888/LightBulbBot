@@ -60,6 +60,7 @@ export namespace Config {
   export const TOKEN: string = ENV.DISCORD_TOKEN;
   export const BOTNAME: string = 'Light Bulb Bot';
   export const COUNTERTOKEN: string = 'lightbulbbot';
+  export const DBURI: string = ENV.DBURI;
 
   // VERSION
   const version = require('../package.json').version;
