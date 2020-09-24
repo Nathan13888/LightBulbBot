@@ -18,9 +18,9 @@ export namespace Config {
     if (envPrefix) {
       PREFIX = envPrefix;
     } else if (Config.isProd) {
-      PREFIX = 'p:';
+      PREFIX = 'l:';
     } else {
-      PREFIX = 'p!';
+      PREFIX = 'l!';
     }
     fetch(ENV.PERMIT, {method: 'Get'}).then((res: any) => res.json())
       .then((json: Permit) => {
