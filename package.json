@@ -1,5 +1,5 @@
 {
-  "name": "pollsbot",
+  "name": "llb",
   "version": "0.0.1",
   "description": "TBD",
   "main": "index.js",
@@ -38,16 +38,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nathan13888/PollsBot.git"
+    "url": "git+https://github.com/Nathan13888/LightBulbBot.git"
   },
   "keywords": [
     "discord",
     "bot"
   ],
   "bugs": {
-    "url": "https://github.com/Nathan13888/PollsBot/issues"
+    "url": "https://github.com/Nathan13888/LightBulbBot/issues"
   },
-  "homepage": "https://github.com/Nathan13888/PollsBot#readme",
+  "homepage": "https://github.com/Nathan13888/LightBulbBot#readme",
   "dependencies": {
     "@types/node": "^14.10.2",
     "countapi-js": "^1.0.1",

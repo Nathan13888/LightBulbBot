@@ -58,8 +58,8 @@ export namespace Config {
   export const NODE_ENV: string = ENV.NODE_ENV;
   export const isProd: boolean = NODE_ENV==='production';
   export const TOKEN: string = ENV.DISCORD_TOKEN;
-  export const BOTNAME: string = 'Polls Bot';
-  export const COUNTERTOKEN: string = 'pollsbot';
+  export const BOTNAME: string = 'Light Bulb Bot';
+  export const COUNTERTOKEN: string = 'lightbulbbot';
 
   // VERSION
   const version = require('../package.json').version;
