@@ -16,6 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"**/*.ts\" \"**/*.js\"",
     "lint:fix": "npm run lint -- --fix",
+    "d:build": "docker build -t LBB .",
+    "d:run": "docker run LBB:latest",
     "deploy": "git push heroku master",
     "local": "heroku local worker",
     "main:on": "heroku maintenance:on",
