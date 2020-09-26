@@ -14,7 +14,24 @@ export namespace DB {
     @prop({required: true})
     version: string;
   }
-
+  export class GuildConfigClass {
+    @prop({required: true, unique: true})
+    guildid: string;
+    @prop({required: true})
+    commands: number;
+    @prop({required: true})
+    alltimecommands: number;
+    @prop({required: true})
+    privilegedusers: Map<string, number>;
+    @prop({required: true})
+    commandchannels: Set<string>;
+    @prop({required: true})
+    announcements: string;
+  }
+  export class GlobalConfigClass {
+    starts: number;
+  }
+  export const GuildConfig =
   export const Log = getModelForClass(LogClass, {
     existingMongoose: Mongoose,
     schemaOptions: {collection: 'logs'},
